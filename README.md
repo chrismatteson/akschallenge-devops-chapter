@@ -18,7 +18,6 @@ https://www.terraform.io/docs/providers/helm/index.html
 
 `HINT 1: Create a seperate folder for this Terraform code. Terraform treats each folder entirely seperate, and this should simplify dependancies.`
 
-`HINT 2: The Helm provider should be able to use the KUBECONFIG exported in the last step of 3.4.0. Use kubectl to ensure it's configured correctly. Advanced topic - use remote data sources to pull in information from the state file created for 3.4.0.
+`HINT 2: The Helm provider should be able to use the KUBECONFIG exported in the last step of 3.4.0. Use kubectl to ensure it's configured correctly. Advanced topic - use remote data sources to pull in information from the state file created for 3.4.0.`
 
 https://www.terraform.io/docs/providers/terraform/d/remote_state.html
-`
