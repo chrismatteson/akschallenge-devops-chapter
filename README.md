@@ -1,7 +1,7 @@
 ## 3.4 DevOps - Infrastructure as Code with Terraform
 Deploying the Azure Infrastructure and the container workload may seem like two different problems, but they are both infrastructure deployment concerns. Wouldn't it be great to be able to use one tool to recreate the entire environment? Let's start with deploying AKS.
 
-# 3.4.0 Tasks
+### 3.4.0 Tasks
 Use Terraform to deploy AKS, and deploy your helm charts
 
 https://www.terraform.io/intro/index.html
@@ -11,7 +11,7 @@ https://docs.microsoft.com/en-us/azure/terraform/terraform-create-k8s-cluster-wi
 ## 3.4.1 DevOp - Kubernetes as Code with Terraform
 Now that AKS is up and running, we can deploy the Helm chart we created in a prior exercise to the AKS cluster we just created.
 
-# 3.4.1 Tasks
+### 3.4.1 Tasks
 Deploy helm chart to new AKS cluster.
 
 https://www.terraform.io/docs/providers/helm/index.html
